@@ -43,7 +43,7 @@
 				?>
 				<p class="site-description"><?php echo $vanessa_naja_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
-		</div>.site-branding
+		</div>
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'vanessa-naja' ); ?></button>
