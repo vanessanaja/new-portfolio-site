@@ -55,13 +55,12 @@ body{
 	}
 }
 nav#site-navigation.main-navigation {
-	// max-width: 100%;
+	width: auto;
 	top: 2em;
 	// left: 70em;
 	bottom: auto;
 	position: fixed;
 	right: 0;
-	max-width: 35%;
 	a {
 		padding: 0 1.5em;
 		font-size: 1.5rem;
@@ -72,6 +71,15 @@ nav#site-navigation.main-navigation {
 	}
 	a:hover {
 		color: $primaryColor;
+	}
+	button.menu-toggle	{
+		margin-top: 2em;
+		padding: 0.5em 3em;
+		box-shadow: -1px 1px 1px rgba(230, 221, 219, 0.6);
+		font-size: 0.85rem;
+	}
+	button.menu-toggle:hover {
+		background-color: $secondaryColor;
 	}
 }
 
