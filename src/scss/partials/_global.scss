@@ -37,6 +37,14 @@ body{
 	.menu-toggle	{
 		background-color: $primaryColor;
 	}
+	@media (min-width: 700px){
+		.site-title a {
+			font-size: 8rem;
+		}
+		.site-description {
+			font-size: 3rem;
+		}
+	}
 	@media (min-width: 1253px){
 		background-size: cover;
 			.site-branding  {
@@ -61,6 +69,7 @@ nav#site-navigation.main-navigation {
 	bottom: auto;
 	position: fixed;
 	right: 0;
+	padding: 1em 3em;
 	a {
 		padding: 0 1.5em;
 		font-size: 1.5rem;

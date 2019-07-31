@@ -23,6 +23,11 @@ body {
     margin-left: 33%; }
   body .menu-toggle {
     background-color: #8fecef; }
+  @media (min-width: 700px) {
+    body .site-title a {
+      font-size: 8rem; }
+    body .site-description {
+      font-size: 3rem; } }
   @media (min-width: 1253px) {
     body {
       background-size: cover; }
@@ -42,7 +47,8 @@ nav#site-navigation.main-navigation {
   top: 2em;
   bottom: auto;
   position: fixed;
-  right: 0; }
+  right: 0;
+  padding: 1em 3em; }
   nav#site-navigation.main-navigation a {
     padding: 0 1.5em;
     font-size: 1.5rem;
