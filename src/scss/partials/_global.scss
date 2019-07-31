@@ -4,32 +4,55 @@ $secondaryColor: #ffff;
 body{
     // background-color: aqua;
     background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/07/tree-sunset-1.jpg);
-    background-size: cover;
-    .site-branding  {
-        margin-top: 3em;
-        text-align: center;
-    }
-    .site-title {
-		margin-bottom: 0;
+	background-position: center center;
+	.site-branding {
+		margin-top: 5em;
+	}
+	.site-title {
+		// margin-bottom: 0;
+		margin-bottom: 2em;
     a {
-		background-color: rgba(255, 255, 255, 0.25);
-		margin-right: 25%;
-		font-size: 10rem;
+		background-color: rgba(255, 255, 255, 0.2);
+		// margin-right: 25%;
+		// font-size: 10rem;
+		font-size: 5rem;
         text-decoration: none;
         color: $primaryColor;
 		text-shadow: -1px 2px 2px rgba(230, 221, 219, 0.6);
-		padding: 0 0.5em;
+		// padding: 0 0.5em;
+		@media (min-width: 400px){
+			padding: 0 0.5em;
+		}
         }
     }
-    
     .site-description {
-        font-size: 2.7em;
+		// font-size: 2.7em;
+		font-size: 1.5rem;
         color: $secondaryColor;
         font-style: italic;
         margin-top: 0;
 		font-weight: 300;
-		margin-left: 23%;
-    }
+		margin-left: 33%;
+	}
+	.menu-toggle	{
+		background-color: $primaryColor;
+	}
+	@media (min-width: 1253px){
+		background-size: cover;
+			.site-branding  {
+				margin-top: 3em;
+				text-align: center;
+			}
+			.site-title a {
+				margin-right: 25%;
+				margin-bottom: 0;
+				font-size: 10rem;
+			}
+			.site-description {
+				font-size: 2.7rem;
+				margin-left: 23%;
+			}
+	}
 }
 nav#site-navigation.main-navigation {
 	// max-width: 100%;
@@ -40,9 +63,12 @@ nav#site-navigation.main-navigation {
 	right: 0;
 	max-width: 35%;
 	a {
-		padding: 0 2rem;
+		padding: 0 1.5em;
 		font-size: 1.5rem;
 		color: $secondaryColor;
+		@media (min-width: 1253px){
+			padding: 0 0.5em;
+		}
 	}
 	a:hover {
 		color: $primaryColor;
@@ -53,8 +79,12 @@ div.entry-content p {
 	font-size: 1.3rem;
     color: $primaryColor;
     text-align: center;
-	margin: 5em;
+	// margin: 1em;
+	margin-top: 15em;
 	font-weight: 300;
+	@media (min-width: 1253px){
+		margin: 5em;
+	}
 }
 
 #secondary {
