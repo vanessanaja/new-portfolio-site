@@ -74,9 +74,6 @@ nav#site-navigation.main-navigation {
 		padding: 0 1.5em;
 		font-size: 1.5rem;
 		color: $secondaryColor;
-		@media (min-width: 1253px){
-			padding: 0 0.5em;
-		}
 	}
 	a:hover {
 		color: $primaryColor;
@@ -91,7 +88,9 @@ nav#site-navigation.main-navigation {
 		background-color: $secondaryColor;
 	}
 }
-
+h1.entry-title {
+	display: none;
+}
 div.entry-content p {
 	font-size: 1.3rem;
     color: $primaryColor;

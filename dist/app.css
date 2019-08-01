@@ -53,9 +53,6 @@ nav#site-navigation.main-navigation {
     padding: 0 1.5em;
     font-size: 1.5rem;
     color: #ffff; }
-    @media (min-width: 1253px) {
-      nav#site-navigation.main-navigation a {
-        padding: 0 0.5em; } }
   nav#site-navigation.main-navigation a:hover {
     color: #8fecef; }
   nav#site-navigation.main-navigation button.menu-toggle {
@@ -65,6 +62,9 @@ nav#site-navigation.main-navigation {
     font-size: 0.85rem; }
   nav#site-navigation.main-navigation button.menu-toggle:hover {
     background-color: #ffff; }
+
+h1.entry-title {
+  display: none; }
 
 div.entry-content p {
   font-size: 1.3rem;
@@ -78,5 +78,19 @@ div.entry-content p {
 
 #secondary {
   display: none; }
+
+.page-id-24 #masthead {
+  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30em; }
+
+.page-id-24 {
+  background-image: none;
+  background-color: #38142B; }
+
+.page-id-24 div.entry-content p {
+  margin-top: -10em;
+  color: #fff; }
 
 /*# sourceMappingURL=app.css.map*/
