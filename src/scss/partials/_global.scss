@@ -1,5 +1,6 @@
 $primaryColor: #8fecef;
 $secondaryColor: #ffff;
+$tertiaryColor: #f5deb3;
 
 body{
     // background-color: aqua;
@@ -10,7 +11,7 @@ body{
 	}
 	.site-title {
 		// margin-bottom: 0;
-		margin-bottom: 2em;
+		margin-bottom: 2em;	
     a {
 		background-color: rgba(255, 255, 255, 0.2);
 		// margin-right: 25%;
@@ -19,6 +20,7 @@ body{
         text-decoration: none;
         color: $primaryColor;
 		text-shadow: -1px 2px 2px rgba(230, 221, 219, 0.6);
+		cursor: default;
 		// padding: 0 0.5em;
 		@media (min-width: 400px){
 			padding: 0 0.5em;
@@ -28,7 +30,8 @@ body{
     .site-description {
 		// font-size: 2.7em;
 		font-size: 1.5rem;
-        color: $secondaryColor;
+		// color: $secondaryColor;
+		color: $tertiaryColor;
         font-style: italic;
         margin-top: 0;
 		font-weight: 300;
@@ -73,7 +76,8 @@ nav#site-navigation.main-navigation {
 	a {
 		padding: 0 1.5em;
 		font-size: 1.5rem;
-		color: $secondaryColor;
+		// color: $secondaryColor;
+		color: $tertiaryColor;
 	}
 	a:hover {
 		color: $primaryColor;
@@ -93,7 +97,8 @@ h1.entry-title {
 }
 div.entry-content p {
 	font-size: 1.3rem;
-    color: $primaryColor;
+	// color: $primaryColor;
+	color: $tertiaryColor;
     text-align: center;
 	// margin: 1em;
 	margin-top: 15em;

@@ -10,13 +10,14 @@ body {
       font-size: 5rem;
       text-decoration: none;
       color: #8fecef;
-      text-shadow: -1px 2px 2px rgba(230, 221, 219, 0.6); }
+      text-shadow: -1px 2px 2px rgba(230, 221, 219, 0.6);
+      cursor: default; }
       @media (min-width: 400px) {
         body .site-title a {
           padding: 0 0.5em; } }
   body .site-description {
     font-size: 1.5rem;
-    color: #ffff;
+    color: #f5deb3;
     font-style: italic;
     margin-top: 0;
     font-weight: 300;
@@ -52,7 +53,7 @@ nav#site-navigation.main-navigation {
   nav#site-navigation.main-navigation a {
     padding: 0 1.5em;
     font-size: 1.5rem;
-    color: #ffff; }
+    color: #f5deb3; }
   nav#site-navigation.main-navigation a:hover {
     color: #8fecef; }
   nav#site-navigation.main-navigation button.menu-toggle {
@@ -68,7 +69,7 @@ h1.entry-title {
 
 div.entry-content p {
   font-size: 1.3rem;
-  color: #8fecef;
+  color: #f5deb3;
   text-align: center;
   margin-top: 15em;
   font-weight: 300; }
@@ -88,9 +89,11 @@ div.entry-content p {
 .page-id-24 {
   background-image: none;
   background-color: #38142B; }
-
-.page-id-24 div.entry-content p {
-  margin-top: -10em;
-  color: #fff; }
+  .page-id-24 div.entry-content p {
+    margin-top: -10em; }
+  .page-id-24 div.entry-content a {
+    color: #8fecef; }
+  .page-id-24 div.entry-content a:hover {
+    color: #ffff; }
 
 /*# sourceMappingURL=app.css.map*/
