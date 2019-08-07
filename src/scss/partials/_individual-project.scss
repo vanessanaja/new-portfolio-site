@@ -1,0 +1,32 @@
+$primaryColor: #8fecef;
+$secondaryColor: #ffff;
+$tertiaryColor: #f5deb3;
+
+.project-template-default {
+    background-image: none;
+    .site-branding {
+        display: none;
+    }
+    .site-navigation {
+        background-color: rgba(255, 255, 255, 0.25)
+    }
+    #site-navigation {
+        background-color: rgba(255, 255, 255, 0.35)
+    }
+    div.entry-content p   {
+        margin: 2em 3em;
+        text-align: left;
+    }
+}
+.project-image {
+    max-width: 100%;
+    text-align: center;
+}
+.project-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.project-description {
+    margin-right: 0%;
+}

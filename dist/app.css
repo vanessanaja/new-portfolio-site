@@ -4,7 +4,8 @@ body {
   body .site-branding {
     margin-top: 5em; }
   body .site-title {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    margin-top: 11em; }
     body .site-title a {
       background-color: rgba(255, 255, 255, 0.2);
       font-size: 5rem;
@@ -28,7 +29,9 @@ body {
     body .site-title a {
       font-size: 8rem; }
     body .site-description {
-      font-size: 3rem; } }
+      font-size: 3rem;
+      margin-left: 40%;
+      margin-top: 2em; } }
   @media (min-width: 1253px) {
     body {
       background-size: cover; }
@@ -51,7 +54,6 @@ nav#site-navigation.main-navigation {
   right: 0;
   padding: 1em 3em; }
   nav#site-navigation.main-navigation a {
-    padding: 0 1.5em;
     font-size: 1.5rem;
     color: #f5deb3; }
   nav#site-navigation.main-navigation a:hover {
@@ -63,6 +65,14 @@ nav#site-navigation.main-navigation {
     font-size: 0.85rem; }
   nav#site-navigation.main-navigation button.menu-toggle:hover {
     background-color: #ffff; }
+  @media (min-width: 560px) {
+    nav#site-navigation.main-navigation a {
+      padding: 0 1.5em; } }
+
+@media (max-width: 599px) {
+  .main-navigation.toggled ul {
+    display: flex;
+    flex-flow: column; } }
 
 h1.entry-title {
   display: none; }
@@ -84,6 +94,7 @@ div.entry-content p {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
   padding-bottom: 30em; }
 
 .page-id-24 {
@@ -95,5 +106,46 @@ div.entry-content p {
     color: #8fecef; }
   .page-id-24 div.entry-content a:hover {
     color: #ffff; }
+
+.page-id-50 #masthead {
+  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-bottom: 30em; }
+
+.page-id-50 {
+  background-image: none;
+  background-color: #38142B; }
+  .page-id-50 div.entry-content p {
+    margin-top: -10em; }
+  .page-id-50 div.entry-content a {
+    color: #8fecef; }
+  .page-id-50 div.entry-content a:hover {
+    color: #ffff; }
+
+.project-template-default {
+  background-image: none; }
+  .project-template-default .site-branding {
+    display: none; }
+  .project-template-default .site-navigation {
+    background-color: rgba(255, 255, 255, 0.25); }
+  .project-template-default #site-navigation {
+    background-color: rgba(255, 255, 255, 0.35); }
+  .project-template-default div.entry-content p {
+    margin: 2em 3em;
+    text-align: left; }
+
+.project-image {
+  max-width: 100%;
+  text-align: center; }
+
+.project-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600; }
+
+.project-description {
+  margin-right: 0%; }
 
 /*# sourceMappingURL=app.css.map*/

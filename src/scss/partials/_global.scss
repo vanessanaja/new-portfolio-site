@@ -11,7 +11,9 @@ body{
 	}
 	.site-title {
 		// margin-bottom: 0;
-		margin-bottom: 2em;	
+		margin-bottom: 2em;
+		// margin-top: 9em;	
+		margin-top: 11em;
     a {
 		background-color: rgba(255, 255, 255, 0.2);
 		// margin-right: 25%;
@@ -24,8 +26,8 @@ body{
 		// padding: 0 0.5em;
 		@media (min-width: 400px){
 			padding: 0 0.5em;
-		}
-        }
+			}
+		}	
     }
     .site-description {
 		// font-size: 2.7em;
@@ -46,6 +48,8 @@ body{
 		}
 		.site-description {
 			font-size: 3rem;
+			margin-left: 40%;
+			margin-top: 2em;
 		}
 	}
 	@media (min-width: 1253px){
@@ -74,7 +78,7 @@ nav#site-navigation.main-navigation {
 	right: 0;
 	padding: 1em 3em;
 	a {
-		padding: 0 1.5em;
+		// padding: 0 0.2em;
 		font-size: 1.5rem;
 		// color: $secondaryColor;
 		color: $tertiaryColor;
@@ -91,7 +95,19 @@ nav#site-navigation.main-navigation {
 	button.menu-toggle:hover {
 		background-color: $secondaryColor;
 	}
+	@media (min-width: 560px){
+		a {
+			padding: 0 1.5em;	
+		}
+	}
 }
+@media (max-width: 599px){
+	.main-navigation.toggled ul {
+		display: flex;
+		flex-flow: column;
+	}
+}
+
 h1.entry-title {
 	display: none;
 }
