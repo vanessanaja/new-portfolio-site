@@ -1,6 +1,7 @@
 $primaryColor: #8fecef;
 $secondaryColor: #ffff;
 $tertiaryColor: #f5deb3;
+$purple: #551D41;
 
 .page-id-24 #masthead {
     // background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/07/tree-sunset-1.jpg);
@@ -15,7 +16,7 @@ $tertiaryColor: #f5deb3;
 }
 .page-id-24 {
     background-image: none;
-    background-color: #38142B;
+    background-color: $purple;
     div.entry-content p {
         margin-top: -10em;
     }

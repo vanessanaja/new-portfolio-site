@@ -1,6 +1,7 @@
 $primaryColor: #8fecef;
 $secondaryColor: #ffff;
 $tertiaryColor: #f5deb3;
+$purple: #551D41;
 
 body{
     // background-color: aqua;
@@ -27,7 +28,7 @@ body{
 		@media (min-width: 400px){
 			padding: 0 0.5em;
 			}
-		}	
+		}		
     }
     .site-description {
 		// font-size: 2.7em;
@@ -38,6 +39,15 @@ body{
         margin-top: 0;
 		font-weight: 300;
 		margin-left: 33%;
+	}
+	p a {
+		color: $primaryColor;
+		&:hover {
+			color: $secondaryColor;
+		}
+		&:visited {
+			color: royalblue;
+		}
 	}
 	.menu-toggle	{
 		background-color: $primaryColor;

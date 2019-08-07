@@ -1,9 +1,14 @@
 $primaryColor: #8fecef;
 $secondaryColor: #ffff;
 $tertiaryColor: #f5deb3;
+$purple: #551D41;
 
 .project-template-default {
     background-image: none;
+    background-color: $purple;
+    .entry-content {
+        margin-top: 0;
+    }
     .site-branding {
         display: none;
     }
@@ -24,8 +29,11 @@ $tertiaryColor: #f5deb3;
 }
 .project-title {
     text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: $primaryColor;
+    padding: 1em 1em 0.5em 1em;
 }
 .project-description {
     margin-right: 0%;

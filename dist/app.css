@@ -23,6 +23,12 @@ body {
     margin-top: 0;
     font-weight: 300;
     margin-left: 33%; }
+  body p a {
+    color: #8fecef; }
+    body p a:hover {
+      color: #ffff; }
+    body p a:visited {
+      color: royalblue; }
   body .menu-toggle {
     background-color: #8fecef; }
   @media (min-width: 700px) {
@@ -99,7 +105,7 @@ div.entry-content p {
 
 .page-id-24 {
   background-image: none;
-  background-color: #38142B; }
+  background-color: #551D41; }
   .page-id-24 div.entry-content p {
     margin-top: -10em; }
   .page-id-24 div.entry-content a {
@@ -125,7 +131,10 @@ div.entry-content p {
     color: #ffff; }
 
 .project-template-default {
-  background-image: none; }
+  background-image: none;
+  background-color: #551D41; }
+  .project-template-default .entry-content {
+    margin-top: 0; }
   .project-template-default .site-branding {
     display: none; }
   .project-template-default .site-navigation {
@@ -142,8 +151,11 @@ div.entry-content p {
 
 .project-title {
   text-align: center;
-  font-size: 3rem;
-  font-weight: 600; }
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #8fecef;
+  padding: 1em 1em 0.5em 1em; }
 
 .project-description {
   margin-right: 0%; }
