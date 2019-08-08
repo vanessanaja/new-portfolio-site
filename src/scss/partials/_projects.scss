@@ -11,19 +11,17 @@ $tertiaryColor: #f5deb3;
     background-position-x: center;
     // background-position: center center;
     // top: 0;
-    padding-bottom: 30em;
+    padding-bottom: 20em;
 }
 .page-id-92 {
     background-image: none;
-    background-color: #38142B;
-    // div.entry-content p {
-    //     margin-top: -10em;
-    // }
+    background-color:#4F1B3F;
+    }
     .entry-content {
-        margin-top: -17em;
+        margin-top: -21em;
     }
     .project-list-item {
-        margin-top: 1em;
+        margin: 1em 7em;;
     }
     h2 {
         font-family: Montserrat;
@@ -34,22 +32,27 @@ $tertiaryColor: #f5deb3;
     }
     .project-list-item:nth-of-type(odd) img {
         float: right;
-        margin: 1em;
     }
     .project-list-item:nth-of-type(odd) p {
         text-align: left;
+        margin-top: 1em;
+        margin-left: 0em;
     }
     .project-list-item:nth-of-type(even) img {
         float: left;
-        margin: 1em;
+        margin-right: 1em;
     }
     .project-list-item:nth-of-type(even) p {
-        text-align: right;
+        text-align: left;
+        margin-top: 1em;
     }
     div.entry-content a {
         color: $primaryColor;
         text-decoration: none;
     }
+    // div.entry-content:nth-of-type(odd) {
+    //     margin-left: 1em;
+    // }
     div.entry-content a:hover {
         color: $secondaryColor;
     }

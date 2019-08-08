@@ -124,9 +124,9 @@ div.entry-content p {
   background-image: none;
   background-color: #38142B; }
   .page-id-92 .entry-content {
-    margin-top: -17em; }
+    margin-top: -21em; }
   .page-id-92 .project-list-item {
-    margin-top: 1em; }
+    margin: 1em 7em; }
   .page-id-92 h2 {
     font-family: Montserrat;
     font-weight: 400;
@@ -134,15 +134,17 @@ div.entry-content p {
     margin: 0;
     display: inline-block; }
   .page-id-92 .project-list-item:nth-of-type(odd) img {
-    float: right;
-    margin: 1em; }
+    float: right; }
   .page-id-92 .project-list-item:nth-of-type(odd) p {
-    text-align: left; }
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 0em; }
   .page-id-92 .project-list-item:nth-of-type(even) img {
     float: left;
-    margin: 1em; }
+    margin-right: 1em; }
   .page-id-92 .project-list-item:nth-of-type(even) p {
-    text-align: right; }
+    text-align: left;
+    margin-top: 1em; }
   .page-id-92 div.entry-content a {
     color: #8fecef;
     text-decoration: none; }
