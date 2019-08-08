@@ -135,6 +135,11 @@ function vanessa_naja_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'vanessa_naja_scripts' );
+/* add Google fonts */
+function custom_add_google_fonts() {
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,600', false );
+	}
+	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
 
 /**
  * Implement the Custom Header feature.
