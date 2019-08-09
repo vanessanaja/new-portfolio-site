@@ -118,38 +118,56 @@ div.entry-content p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  padding-bottom: 30em; }
+  padding-bottom: 20em; }
 
 .page-id-92 {
   background-image: none;
-  background-color: #38142B; }
-  .page-id-92 .entry-content {
-    margin-top: -21em; }
-  .page-id-92 .project-list-item {
-    margin: 1em 7em; }
-  .page-id-92 h2 {
-    font-family: Montserrat;
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0;
-    display: inline-block; }
-  .page-id-92 .project-list-item:nth-of-type(odd) img {
-    float: right; }
-  .page-id-92 .project-list-item:nth-of-type(odd) p {
-    text-align: left;
-    margin-top: 1em;
-    margin-left: 0em; }
-  .page-id-92 .project-list-item:nth-of-type(even) img {
-    float: left;
-    margin-right: 1em; }
-  .page-id-92 .project-list-item:nth-of-type(even) p {
-    text-align: left;
-    margin-top: 1em; }
-  .page-id-92 div.entry-content a {
-    color: #8fecef;
-    text-decoration: none; }
-  .page-id-92 div.entry-content a:hover {
-    color: #ffff; }
+  background-color: #531B40; }
+  @media (min-width: 1340px) {
+    .page-id-92 {
+      background-clip: #491B38; } }
+  @media (min-width: 1400px) {
+    .page-id-92 {
+      background-color: #3E1531; } }
+
+.entry-content {
+  margin-top: -11em; }
+
+.project-list-item {
+  margin: 1em 3em 4em; }
+  @media (min-width: 3800px) {
+    .project-list-item {
+      margin: 1em 7em; } }
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  display: inline-block; }
+
+.project-list-item:nth-of-type(odd) img {
+  float: right; }
+
+.project-list-item:nth-of-type(odd) p {
+  text-align: left;
+  margin-top: 1em;
+  margin-left: 0em; }
+
+.project-list-item:nth-of-type(even) img {
+  float: left;
+  margin-right: 1em; }
+
+.project-list-item:nth-of-type(even) p {
+  text-align: left;
+  margin-top: 1em; }
+
+div.entry-content a {
+  color: #8fecef;
+  text-decoration: none; }
+
+div.entry-content a:hover {
+  color: #ffff; }
 
 .project-template-default {
   background-image: none;
