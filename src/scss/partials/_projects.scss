@@ -28,19 +28,20 @@ $tertiaryColor: #f5deb3;
     }
     .project-list-item {
         margin: 1em 3em 4em;
-    @media (min-width: 3800px){
+        h2 {
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 2rem;
+            display: inline-block; 
+        }
+    @media (min-width: 380px){
         margin: 1em 7em;
         }
     }
-    .project-list-item h2 {
-        font-family: Montserrat;
-        font-weight: 400;
-        font-size: 2rem;
-        margin: 0;
-        display: inline-block;
-    }
     .project-list-item:nth-of-type(odd) img {
-        float: right;
+        @media (min-width: 800px){
+            float: right;
+        }
     }
     .project-list-item:nth-of-type(odd) p {
         text-align: left;
@@ -48,8 +49,10 @@ $tertiaryColor: #f5deb3;
         margin-left: 0em;
     }
     .project-list-item:nth-of-type(even) img {
-        float: left;
         margin-right: 1em;
+        @media (min-width: 800px){
+            float: left;
+        }
     }
     .project-list-item:nth-of-type(even) p {
         text-align: left;
