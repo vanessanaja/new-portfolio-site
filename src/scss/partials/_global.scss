@@ -4,9 +4,9 @@ $tertiaryColor: #f5deb3;
 $purple: #551D41;
 
 body{
-    // background-color: aqua;
     background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/07/tree-sunset-1.jpg);
 	background-position: center center;
+	background-size: cover;
 	.site-branding {
 		margin-top: 5em;
 		a {
@@ -25,26 +25,11 @@ body{
 			}
 	}
 	.site-title {
-		// margin-bottom: 0;
 		margin-bottom: 2em;
-		// margin-top: 9em;	
-		margin-top: 11em;
-    // a {
-	// 	background-color: rgba(255, 255, 255, 0.2);
-	// 	font-size: 5rem;
-    //     text-decoration: none;
-    //     color: $primaryColor;
-	// 	text-shadow: -1px 2px 2px rgba(230, 221, 219, 0.6);
-	// 	cursor: default;
-	// 	@media (min-width: 400px){
-	// 		padding: 0 0.5em;
-	// 		}
-	// 	}		
+		margin-top: 11em;		
     }
     .site-description {
-		// font-size: 2.7em;
 		font-size: 1.5rem;
-		// color: $secondaryColor;
 		color: $tertiaryColor;
         font-style: italic;
         margin-top: 0;
@@ -56,9 +41,6 @@ body{
 		&:hover {
 			color: $secondaryColor;
 		}
-		// &:visited {
-		// 	color: royalblue;
-		// }
 	}
 	.menu-toggle	{
 		background-color: $primaryColor;
@@ -93,15 +75,12 @@ body{
 nav#site-navigation.main-navigation {
 	width: auto;
 	top: 2em;
-	// left: 70em;
 	bottom: auto;
 	position: fixed;
 	right: 0;
 	padding: 1em 3em;
 	a {
-		// padding: 0 0.2em;
 		font-size: 1.5rem;
-		// color: $secondaryColor;
 		color: $tertiaryColor;
 	}
 	a:hover {
@@ -134,18 +113,16 @@ h1.entry-title {
 }
 div.entry-content p {
 	font-size: 1.3rem;
-	// color: $primaryColor;
 	color: $tertiaryColor;
     text-align: center;
-	// margin: 1em;
 	margin-top: 15em;
 	font-weight: 300;
 	@media (min-width: 1253px){
 		margin: 5em;
+		padding-top: 2em;
 	}
 }
 
 #secondary {
     display: none;
 }
-

@@ -1,6 +1,7 @@
 body {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/07/tree-sunset-1.jpg);
-  background-position: center center; }
+  background-position: center center;
+  background-size: cover; }
   body .site-branding {
     margin-top: 5em; }
     body .site-branding a {
@@ -91,7 +92,8 @@ div.entry-content p {
   font-weight: 300; }
   @media (min-width: 1253px) {
     div.entry-content p {
-      margin: 5em; } }
+      margin: 5em;
+      padding-top: 2em; } }
 
 #secondary {
   display: none; }
@@ -139,7 +141,7 @@ div.entry-content p {
     .project-list-item {
       margin: 1em 7em; } }
 
-h2 {
+.project-list-item h2 {
   font-family: Montserrat;
   font-weight: 400;
   font-size: 2rem;
