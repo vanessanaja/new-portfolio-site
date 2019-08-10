@@ -39,6 +39,7 @@ $tertiaryColor: #f5deb3;
         }
     }
     .project-list-item:nth-of-type(odd) img {
+        margin-left: 1em;
         @media (min-width: 800px){
             float: right;
         }

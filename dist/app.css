@@ -146,9 +146,11 @@ div.entry-content p {
     .project-list-item {
       margin: 1em 7em; } }
 
-@media (min-width: 800px) {
-  .project-list-item:nth-of-type(odd) img {
-    float: right; } }
+.project-list-item:nth-of-type(odd) img {
+  margin-left: 1em; }
+  @media (min-width: 800px) {
+    .project-list-item:nth-of-type(odd) img {
+      float: right; } }
 
 .project-list-item:nth-of-type(odd) p {
   text-align: left;
@@ -189,7 +191,8 @@ div.entry-content a:hover {
 
 .project-image {
   max-width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-top: 4.25em; }
 
 .project-title {
   text-align: center;
