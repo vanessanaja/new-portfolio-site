@@ -39,8 +39,19 @@ $tertiaryColor: #f5deb3;
         text-align: center;
         @media (min-width: 1253px){
             text-align: left;
+            margin-left: 3em;
+            }
         }
-        }
+        .project-list-item:nth-of-type(even){
+            @media (min-width: 1253px){
+                text-align: right;
+            }
+        } 
+        .project-list-item:nth-of-type(even) h2{
+            @media (min-width: 1253px){
+                margin-right: 7em;
+            }
+        } 
     }
 .project-container {
     display: flex;

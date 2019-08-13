@@ -18,7 +18,8 @@ $purple: #551D41;
     background-image: none;
     background-color: $purple;
     div.entry-content p {
-        margin-top: -10em;
+        // margin-top: -10em;
+        margin: -10em 1em 1em 1em;
     }
     div.entry-content a {
         color: $primaryColor;
