@@ -3,22 +3,18 @@ $secondaryColor: #ffff;
 $tertiaryColor: #f5deb3;
 
 .page-id-92 #masthead {
-    // background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/07/tree-sunset-1.jpg);
     background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
-    // background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-shorter-gradient.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    // background-position: center center;
-    // top: 0;
     padding-bottom: 20em;
 }
 .page-id-92 {
     background-image: none;
     background-color: #531B40;
-    @media (min-width: 1340px) {
-        background-clip: #491B38;
-    }
+    // @media (min-width: 1340px) {
+    //     background-clip: #491B38;
+    // }
     @media (min-width: 1400px){
         background-color:#3E1531;
         }
@@ -28,6 +24,10 @@ $tertiaryColor: #f5deb3;
     }
     .project-list-item {
         margin: 1em 3em 4em;
+        //from prejcts-new
+        // margin: 0 1em 1em 1em;
+        // border-bottom: 1px solid black;
+        // box-shadow: 4px 6px 7px -2px rgba(0,0,0,0.75);
         h2 {
             font-family: Montserrat;
             font-weight: 400;
