@@ -24,4 +24,28 @@ $purple: #551D41;
     div.entry-content a:hover {
         color: $secondaryColor;
     }
+    .wp-image-180 {
+        text-align: center;
+        margin: 1em;
+        @media(min-width: 540px){
+            float: left;
+            margin: 0 1em 0 0;
+        }
+    }
+}
+footer {
+    .textwidget.custom-html-widget {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .copyright {
+        display: inline-block;
+        margin-left: 3em;
+        color: $tertiaryColor;
+    }
+    .social-icons img {
+        margin: 0 1em;
+    }
+    
 }

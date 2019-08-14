@@ -127,6 +127,26 @@ div.entry-content p {
     color: #8fecef; }
   .page-id-24 div.entry-content a:hover {
     color: #ffff; }
+  .page-id-24 .wp-image-180 {
+    text-align: center;
+    margin: 1em; }
+    @media (min-width: 540px) {
+      .page-id-24 .wp-image-180 {
+        float: left;
+        margin: 0 1em 0 0; } }
+
+footer .textwidget.custom-html-widget {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+footer .copyright {
+  display: inline-block;
+  margin-left: 3em;
+  color: #f5deb3; }
+
+footer .social-icons img {
+  margin: 0 1em; }
 
 .page-id-92 #masthead {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
