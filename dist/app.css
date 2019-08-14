@@ -1,7 +1,8 @@
 body {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
   body .site-branding {
     margin-top: 5em; }
     body .site-branding a {
@@ -32,12 +33,16 @@ body {
       color: #ffff; }
   body .menu-toggle {
     background-color: #8fecef; }
+    body .menu-toggle:hover {
+      background-color: red; }
   body #primary-menu.menu.nav-menu[aria-expanded="true"] a {
     color: #000;
     font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.4);
     padding: 0.5em 0.5em;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3); }
+    body #primary-menu.menu.nav-menu[aria-expanded="true"] a:hover {
+      background-color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 700px) {
     body .site-title a {
       font-size: 8rem; }
@@ -73,7 +78,7 @@ nav#site-navigation.main-navigation {
     color: #8fecef; }
   nav#site-navigation.main-navigation button.menu-toggle {
     margin-top: 2em;
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     box-shadow: -1px 1px 1px rgba(230, 221, 219, 0.6);
     font-size: 0.85rem;
     font-style: italic;
@@ -96,7 +101,7 @@ div.entry-content p {
   font-size: 1.3rem;
   color: #f5deb3;
   text-align: center;
-  margin-top: 4em;
+  margin: 4em 1em 1em 1em;
   font-weight: 300; }
   @media (min-width: 1253px) {
     div.entry-content p {
@@ -117,84 +122,11 @@ div.entry-content p {
   background-image: none;
   background-color: #551D41; }
   .page-id-24 div.entry-content p {
-    margin: -10em 1em 1em 1em; }
+    margin: -10em 3em 1em 3em; }
   .page-id-24 div.entry-content a {
     color: #8fecef; }
   .page-id-24 div.entry-content a:hover {
     color: #ffff; }
-
-.page-id-92 #masthead {
-  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  padding-bottom: 20em; }
-
-.page-id-92 {
-  background-image: none;
-  background-color: #531B40; }
-  @media (min-width: 1400px) {
-    .page-id-92 {
-      background-color: #3E1531; } }
-
-.entry-content {
-  margin-top: -11em; }
-  .entry-content h2 {
-    font-family: Montserrat;
-    font-weight: 400;
-    font-size: 2rem;
-    display: inline-block;
-    margin-bottom: 2em; }
-    @media (min-width: 1253px) {
-      .entry-content h2 {
-        margin-bottom: 0; } }
-  .entry-content a {
-    text-decoration: none;
-    color: #8fecef; }
-  .entry-content .project-list-item {
-    margin: 0 1em 1em 1em;
-    border-bottom: 1px solid black;
-    box-shadow: 4px 6px 7px -2px rgba(0, 0, 0, 0.75);
-    text-align: center; }
-    @media (min-width: 1253px) {
-      .entry-content .project-list-item {
-        text-align: left;
-        margin-left: 3em; } }
-  @media (min-width: 1253px) {
-    .entry-content .project-list-item:nth-of-type(even) {
-      text-align: right; } }
-  @media (min-width: 1253px) {
-    .entry-content .project-list-item:nth-of-type(even) h2 {
-      margin-right: 7em; } }
-
-.project-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-  @media (min-width: 1253px) {
-    .project-container {
-      flex-direction: row-reverse;
-      margin: 0 1em 1em 1em; } }
-  .project-container .short-description p {
-    margin: 3em; }
-    @media (min-width: 1253px) {
-      .project-container .short-description p {
-        margin-top: 1em; } }
-  .project-container img {
-    width: auto;
-    height: auto;
-    margin: 2em; }
-
-@media (min-width: 1253px) {
-  .project-list-item:nth-of-type(even) .project-container {
-    flex-direction: row;
-    margin: 0 1em 2em 1em; } }
-
-@media (min-width: 1253px) {
-  .project-list-item:nth-of-type(odd) .project-container {
-    margin-right: 3em;
-    margin-bottom: 2em; } }
 
 .project-template-default {
   background-image: none;
@@ -304,5 +236,80 @@ div.entry-content p {
 
 .project-description {
   margin-right: 0%; }
+
+.page-id-92 #masthead {
+  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-bottom: 20em; }
+
+.page-id-92 {
+  background-image: none;
+  background-color: #531B40; }
+  @media (min-width: 1400px) {
+    .page-id-92 {
+      background-color: #3E1531; } }
+
+.entry-content {
+  margin-top: -11em; }
+  .entry-content h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 2em; }
+    @media (min-width: 1253px) {
+      .entry-content h2 {
+        margin-bottom: 0; } }
+  .entry-content a {
+    text-decoration: none;
+    color: #8fecef; }
+    .entry-content a:hover {
+      color: #ffff; }
+  .entry-content .project-list-item {
+    margin: 0 1em 1em 1em;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 6px 7px -2px rgba(0, 0, 0, 0.75);
+    text-align: center; }
+    @media (min-width: 1253px) {
+      .entry-content .project-list-item {
+        text-align: left;
+        margin-left: 3em; } }
+  @media (min-width: 1253px) {
+    .entry-content .project-list-item:nth-of-type(even) {
+      text-align: right; } }
+  @media (min-width: 1253px) {
+    .entry-content .project-list-item:nth-of-type(even) h2 {
+      margin-right: 7em; } }
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  @media (min-width: 1253px) {
+    .project-container {
+      flex-direction: row-reverse;
+      margin: 0 1em 1em 1em; } }
+  .project-container .short-description p {
+    margin: 3em; }
+    @media (min-width: 1253px) {
+      .project-container .short-description p {
+        margin-top: 1em; } }
+  .project-container img {
+    width: auto;
+    height: auto;
+    margin: 2em; }
+
+@media (min-width: 1253px) {
+  .project-list-item:nth-of-type(even) .project-container {
+    flex-direction: row;
+    margin: 0 1em 2em 1em; } }
+
+@media (min-width: 1253px) {
+  .project-list-item:nth-of-type(odd) .project-container {
+    margin-right: 3em;
+    margin-bottom: 2em; } }
 
 /*# sourceMappingURL=app.css.map*/
