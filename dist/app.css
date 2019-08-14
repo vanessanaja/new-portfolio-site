@@ -21,7 +21,7 @@ body {
     margin-bottom: 2em;
     margin-top: 11em; }
   body .site-description {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #f5deb3;
     font-style: italic;
     margin-top: 0;
@@ -134,6 +134,12 @@ div.entry-content p {
   background-repeat: no-repeat;
   background-position-x: center;
   padding-bottom: 20em; }
+  @media (min-width: 1660px) {
+    .page-id-92 #masthead {
+      padding-bottom: 30em; } }
+  @media (min-width: 1920px) {
+    .page-id-92 #masthead {
+      padding-bottom: 40em; } }
 
 .page-id-92 {
   background-image: none;

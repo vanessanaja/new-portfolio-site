@@ -8,13 +8,19 @@ $tertiaryColor: #f5deb3;
     background-repeat: no-repeat;
     background-position-x: center;
     padding-bottom: 20em;
+    @media(min-width: 1660px){
+        padding-bottom: 30em;
+    }
+    @media(min-width: 1920px){
+        padding-bottom: 40em;
+    }
 }
 .page-id-92 {
     background-image: none;
     background-color: #531B40;
     @media (min-width: 1400px){
         background-color:#3E1531;
-        }
+        } 
     }
 .entry-content {
     margin-top: -11em;
