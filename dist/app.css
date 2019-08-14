@@ -146,7 +146,13 @@ footer .copyright {
   color: #f5deb3; }
 
 footer .social-icons img {
-  margin: 0 1em; }
+  margin: 0 1em;
+  padding: 2px;
+  border-radius: 50%;
+  background: #f5deb3; }
+
+footer img:hover {
+  background: #8fecef; }
 
 .page-id-92 #masthead {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
