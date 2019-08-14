@@ -128,115 +128,6 @@ div.entry-content p {
   .page-id-24 div.entry-content a:hover {
     color: #ffff; }
 
-.project-template-default {
-  background-image: none;
-  background-color: #551D41; }
-  .project-template-default .entry-content {
-    margin-top: 0; }
-  .project-template-default .site-branding {
-    display: none; }
-  .project-template-default .site-navigation {
-    background-color: rgba(255, 255, 255, 0.25); }
-  .project-template-default #site-navigation {
-    background-color: rgba(255, 255, 255, 0.35); }
-  .project-template-default div.entry-content p {
-    margin: 2em 3em;
-    text-align: left; }
-  .project-template-default nav#site-navigation.main-navigation {
-    width: 100%; }
-
-.project-image {
-  max-width: 100%;
-  text-align: center;
-  margin-top: 4.25em; }
-
-.project-title {
-  text-align: center;
-  font-size: 3.5rem;
-  font-weight: 400;
-  font-style: italic;
-  color: #8fecef;
-  padding: 1em 1em 0.5em 1em; }
-
-.project-description {
-  margin-right: 0%; }
-
-.page-id-153 #masthead {
-  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  padding-bottom: 20em; }
-
-.page-id-153 {
-  background-image: none;
-  background-color: #531B40; }
-  .page-id-153 .project-list-item-new {
-    margin: 0 1em 1em 1em;
-    border-bottom: 1px solid black;
-    box-shadow: 4px 6px 7px -2px rgba(0, 0, 0, 0.75); }
-  .page-id-153 .project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-    @media (min-width: 1253px) {
-      .page-id-153 .project-info {
-        flex-direction: row-reverse;
-        margin: 0 1em 1em 1em; } }
-  .page-id-153 .short-description p {
-    margin-top: 1em; }
-  .page-id-153 h2 {
-    font-family: Montserrat;
-    font-weight: 400;
-    font-size: 2rem;
-    display: inline-block; }
-  .page-id-153 img {
-    width: auto;
-    height: auto; }
-  @media (min-width: 1340px) {
-    .page-id-153 {
-      background-clip: #491B38; } }
-  @media (min-width: 1400px) {
-    .page-id-153 {
-      background-color: #3E1531; } }
-
-.entry-content {
-  margin-top: -11em; }
-
-.project_new-template-default {
-  background-image: none;
-  background-color: #551D41; }
-  .project_new-template-default .entry-content {
-    margin-top: 0; }
-  .project_new-template-default .site-branding {
-    display: none; }
-  .project_new-template-default .site-navigation {
-    background-color: rgba(255, 255, 255, 0.25); }
-  .project_new-template-default #site-navigation {
-    background-color: rgba(255, 255, 255, 0.35); }
-  .project_new-template-default div.entry-content p {
-    margin: 2em 3em;
-    text-align: left; }
-  .project_new-template-default nav#site-navigation.main-navigation {
-    width: 100%; }
-
-.project-image {
-  max-width: 100%;
-  text-align: center;
-  margin-top: 4.25em; }
-
-.project-title {
-  text-align: center;
-  font-size: 3.5rem;
-  font-weight: 400;
-  font-style: italic;
-  color: #8fecef;
-  padding: 1em 1em 0.5em 1em; }
-
-.project-description {
-  margin-right: 0%; }
-
 .page-id-92 #masthead {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-size: cover;
@@ -311,5 +202,38 @@ div.entry-content p {
   .project-list-item:nth-of-type(odd) .project-container {
     margin-right: 3em;
     margin-bottom: 2em; } }
+
+.project-template-default {
+  background-image: none;
+  background-color: #551D41; }
+  .project-template-default .entry-content {
+    margin-top: 0; }
+  .project-template-default .site-branding {
+    display: none; }
+  .project-template-default .site-navigation {
+    background-color: rgba(255, 255, 255, 0.25); }
+  .project-template-default #site-navigation {
+    background-color: rgba(255, 255, 255, 0.35); }
+  .project-template-default div.entry-content p {
+    margin: 2em 3em;
+    text-align: left; }
+  .project-template-default nav#site-navigation.main-navigation {
+    width: 100%; }
+
+.project-image {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 4.25em; }
+
+.project-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #8fecef;
+  padding: 1em 1em 0.5em 1em; }
+
+.project-description {
+  margin-right: 0%; }
 
 /*# sourceMappingURL=app.css.map*/
