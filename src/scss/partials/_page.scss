@@ -10,6 +10,12 @@ $purple: #551D41;
     background-repeat: no-repeat;
     background-position-x: center;
     padding-bottom: 30em;
+    @media (min-width: 1600px){
+        padding-bottom: 45em;
+    }
+    @media (min-width: 1900px){
+        padding-bottom: 47em;
+    }
 }
 .page-id-24 {
     background-image: none;

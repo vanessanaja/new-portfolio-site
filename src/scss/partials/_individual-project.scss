@@ -12,19 +12,22 @@ $purple: #551D41;
     .site-branding {
         display: none;
     }
-    .site-navigation {
-        background-color: rgba(255, 255, 255, 0.25)
-    }
     #site-navigation {
-        background-color: rgba(255, 255, 255, 0.35)
+        @media (min-width: 600px){
+            background-color: rgba(255, 255, 255, 0.35);
+            margin-top: -2em;
+        }
     }
     div.entry-content p   {
-        margin: 2em 3em;
+        margin: 0em 3em;
         text-align: left;
     }
     nav#site-navigation.main-navigation {
         width: 100%;
     }
+}
+.project-template-default nav#site-navigation.main-navigation button.menu-toggle{
+    margin-top: -2em;
 }
 .project-image {
     max-width: 100%;
@@ -41,4 +44,10 @@ $purple: #551D41;
 }
 .project-description {
     margin-right: 0%;
+}
+.nav-previous {
+    display: none;
+}
+.nav-next {
+    display: none;
 }

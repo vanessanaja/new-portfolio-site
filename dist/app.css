@@ -108,8 +108,8 @@ div.entry-content p {
       margin: 5em;
       padding-top: 2em; } }
 
-#secondary {
-  display: none; }
+.single-project .project-description p {
+  margin-bottom: 0px; }
 
 .page-id-24 #masthead {
   background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
@@ -117,6 +117,12 @@ div.entry-content p {
   background-repeat: no-repeat;
   background-position-x: center;
   padding-bottom: 30em; }
+  @media (min-width: 1600px) {
+    .page-id-24 #masthead {
+      padding-bottom: 45em; } }
+  @media (min-width: 1900px) {
+    .page-id-24 #masthead {
+      padding-bottom: 47em; } }
 
 .page-id-24 {
   background-image: none;
@@ -242,15 +248,18 @@ footer img:hover {
     margin-top: 0; }
   .project-template-default .site-branding {
     display: none; }
-  .project-template-default .site-navigation {
-    background-color: rgba(255, 255, 255, 0.25); }
-  .project-template-default #site-navigation {
-    background-color: rgba(255, 255, 255, 0.35); }
+  @media (min-width: 600px) {
+    .project-template-default #site-navigation {
+      background-color: rgba(255, 255, 255, 0.35);
+      margin-top: -2em; } }
   .project-template-default div.entry-content p {
-    margin: 2em 3em;
+    margin: 0em 3em;
     text-align: left; }
   .project-template-default nav#site-navigation.main-navigation {
     width: 100%; }
+
+.project-template-default nav#site-navigation.main-navigation button.menu-toggle {
+  margin-top: -2em; }
 
 .project-image {
   max-width: 100%;
@@ -267,5 +276,11 @@ footer img:hover {
 
 .project-description {
   margin-right: 0%; }
+
+.nav-previous {
+  display: none; }
+
+.nav-next {
+  display: none; }
 
 /*# sourceMappingURL=app.css.map*/
