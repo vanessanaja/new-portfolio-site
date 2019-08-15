@@ -24,10 +24,10 @@ $purple: #551D41;
     }
     nav#site-navigation.main-navigation {
         width: 100%;
+        button.menu-toggle {
+            margin-top: -2em;
+        }
     }
-}
-.project-template-default nav#site-navigation.main-navigation button.menu-toggle{
-    margin-top: -2em;
 }
 .project-image {
     max-width: 100%;
