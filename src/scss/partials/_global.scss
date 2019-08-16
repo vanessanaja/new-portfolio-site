@@ -2,9 +2,8 @@ $primaryColor: #8fecef;
 $secondaryColor: #ffff;
 $tertiaryColor: #f5deb3;
 $purple: #551D41;
-
 body{
-	background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+	background-image: url(https://vanessanaja.com/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -33,7 +32,7 @@ body{
 		font-size: 2rem;
 		color: $tertiaryColor;
         font-style: italic;
-        margin-top: 0;
+        margin-top: 3em;;
 		font-weight: 300;
 		margin-left: 33%;
 	}

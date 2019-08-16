@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-image: url(https://vanessanaja.com/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -24,7 +24,7 @@ body {
     font-size: 2rem;
     color: #f5deb3;
     font-style: italic;
-    margin-top: 0;
+    margin-top: 3em;
     font-weight: 300;
     margin-left: 33%; }
   body p a {
@@ -133,7 +133,7 @@ footer .social-icons {
       background: #8fecef; }
 
 .page-id-24 #masthead {
-  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-image: url(https://vanessanaja.com/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,7 +159,7 @@ footer .social-icons {
         margin: 0 1em 0 0; } }
 
 .page-id-92 #masthead {
-  background-image: url(http://localhost:8888/vanessa-naja/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
+  background-image: url(https://vanessanaja.com/wp-content/uploads/2019/08/tree-sunset-gradient.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -181,7 +181,7 @@ footer .social-icons {
 .entry-content {
   margin-top: -11em; }
   .entry-content h2 {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 2rem;
     display: inline-block;
