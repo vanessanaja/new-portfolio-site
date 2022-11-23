@@ -31,6 +31,6 @@
     "webpack-command": "^0.2.1"
   },
   "dependencies": {
-    "browser-sync": "^2.24.5"
+    "browser-sync": "^2.27.10"
   }
 }
